@@ -13,17 +13,18 @@ html,body{
 }
 .navbar{
     margin-bottom: 3px;
-    background-color: black;
-    color: white;
+    background-color: #1B368B;
+    color: #E7D63F;
 
 }
 ul{
     list-style: none;
     display:flex;
-    text-align: left;
+    text-align: right;
 }
 .navbar ul li{
-    padding:8px;
+    padding-left: 20px;
+    padding-top: 50px;
    
 }
 .navbar ul li a{
@@ -38,7 +39,7 @@ ul{
 }
 
 .pimg1{
-    background-image: url(knacki1.png);
+    background-image: url(IMG_20240203_114234.jpg);
     min-height: 500px;
     background-attachment: fixed;
 }
@@ -104,9 +105,23 @@ ul{
     width: 100%;
     padding: 20px 90px;
     text-transform: uppercase;
-    background-color: dimgrey;
+    background-color: #1B368B;
 }
 
 .textBDP{
     color: white;
+}
+
+#logo{
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 50px;
+   background-color: white;
+}
+
+#nom{
+    padding-top: 20px;
+   padding-left: 10px;
+   padding-right: 20px;
+   background-color: white;
 }
