@@ -33,7 +33,7 @@ ul{
 .navbar ul li a:hover{
     font-weight: bold;
     font-size: large;
-    transition: 0.2s ease-in;
+    transition: 0.3s ease-in;
     color:#E7D63F;
 }
 
@@ -76,10 +76,13 @@ ul{
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .textbg{
-    background-color: black;
+    background-color: #1B368B;
     color: white;
     padding: 20px;
 }
@@ -88,6 +91,9 @@ ul{
     text-align: center;
     padding: 20px 80px;
     text-transform: uppercase;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .valider_{

@@ -29,65 +29,61 @@
     <header>
         <nav class="navbar">
             <ul>
-                <div id="logo"><a href="ACCUEIL.html"></a> <img src="Ecusson.png" width="100" height="100"></div>
-                <div id="nom"><a href="ACCUEIL.html"></a> <img src="Cotiere_robotics.png" width="260" height="100"></div>
-                <li class="pitem"><a href="ACCUEIL.html">ACCUEIL</a></li>
-                <li class="pitem"><a href="CREATION.html">LA CREATION DE LA KNACKI</a></li>
-                <li class="pitem"><a href="CUISSON.html">LA CUISSON DE LA KNACKI</a></li>
-                <li class="pitem"><a href="QCM.html"><b>QCM SUR LA KNACKI</b></a></li>
+                <div id="logo"><a href="ACCUEIL.html" title="ACCUEIL"> <img src="Ecusson.png" width="100" height="100"></a></div>
+                <div id="nom"> <img src="Cotiere_robotics.png" width="260" height="100"></div>
+                <li class="alfa-slab"><a href="ACCUEIL.html">ACCUEIL</a></li>
+                <li class="alfa-slab"><a href="CREATION.html">A PROPOS</a></li>
+                <li class="alfa-slab"><a href="CUISSON.html">PALMARES</a></li>
+                <li class="alfa-slab"><a href="QCM.html" style="color:#E7D63F">>PHOTOS</a></li>
             </ul>
         </nav>
     </header>
-    <section class="pimg1">
-
-        <div class="ptext">
-            <span class="textbg">
-                LES KNACKIS
-            </span>
-        </div>
-    </section>
+    <section class="pimg1"></section>
 
     <section class="section">
         <section class="pimg4">
             <div class="ptext">
                 <span class="textbg"> QCM SUR LES KNACKIS </span>
             </div>
+        </section>
     </section>
 
 
-	<form name="quizz" onsubmit="verifier(); return false;">
-        <br>
-		<h3>Question 1</h3>
-		<p>En quelle annee a ete creee la Knacki ?</p>
-		<input type="radio" name="q1" value="a"> a) 1947<br>
-		<input type="radio" name="q1" value="b"> b) 2004<br>
-		<input type="radio" name="q1" value="c"> c) 1975<br>
-        <br>
-		<h3>Question 2</h3>
-		<p>Comment est ce qu'on cuit generalement les Knackis ?</p>
+    <section class ="section">
+        <form name="quizz" onsubmit="verifier(); return false;">
+            <br>
+            <h3>Question 1</h3>
+            <p>En quelle annee a ete creee la Knacki ?</p>
+            <input type="radio" name="q1" value="a"> a) 1947<br>
+            <input type="radio" name="q1" value="b"> b) 2004<br>
+            <input type="radio" name="q1" value="c"> c) 1975<br>
+            <br>
+            <h3>Question 2</h3>
+            <p>Comment est ce qu'on cuit generalement les Knackis ?</p>
 
-        <select name="q2">
-            <option value="">--Choisir une option--</option>
-            <option value="a">a) Dans l'huile</option>
-            <option value="b">b) Dans l'eau</option>
-            <option value="c">c) Au four</option>
-        </select>
+            <select name="q2">
+                <option value="">--Choisir une option--</option>
+                <option value="a">a) Dans l'huile</option>
+                <option value="b">b) Dans l'eau</option>
+                <option value="c">c) Au four</option>
+            </select>
 
-        <br>
+            <br>
 
-		<h3>Question 3</h3>
-		<p>Quelle entreprise vend les Knackis?</p>
-        <input type="text" id="q3" name="q3" placeholder="Reponse...">
-        <br>
-        <br>
-		<input class=valider_ type="submit" value="">
-	</form>
+            <h3>Question 3</h3>
+            <p>Quelle entreprise vend les Knackis?</p>
+            <input type="text" id="q3" name="q3" placeholder="Reponse...">
+            <br>
+            <br>
+            <input class=valider_ type="submit" value="">
+        </form>
 
-	<div id="resultats"></div>
-    <br>
+        <div id="resultats"></div>
+        <br>
+    </section>
             
     <section class="BDP">
-            <span class="textBDP"><p>NATHAN ET MATEO</p></span>
+        <span class="bai-jamjuree-extralight" style="color: white;"><p>COTIERE robotics tout droit réservé.</p></span>
     </section>
 
 </body>
