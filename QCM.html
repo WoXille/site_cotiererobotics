@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <title>LES KNACKIS</title>
+
+    <script>
+		function verifier() {
+			var score = 0;
+			var q1 = document.forms["quizz"]["q1"].value;
+			var q2 = document.forms["quizz"]["q2"].value;
+			var q3 = document.getElementById("q3").value;
+			if (q1 == "c") { score++; }
+			if (q2 == "b") { score++; }
+			if (q3 == "Herta" ) { score++; }
+
+            var resultat = "Vous avez obtenu " + score + " bonnes reponses sur 3.";
+			document.getElementById("resultats").innerHTML = resultat;
+		}
+	</script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="pitem"><a href="ACCUEIL.html">ACCUEIL</a></li>
+                <li class="pitem"><a href="CREATION.html">LA CREATION DE LA KNACKI</a></li>
+                <li class="pitem"><a href="CUISSON.html">LA CUISSON DE LA KNACKI</a></li>
+                <li class="pitem"><a href="QCM.html"><b>QCM SUR LA KNACKI</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="pimg1">
+        <div class="ptext">
+            <span class="textbg">
+                LES KNACKIS
+            </span>
+        </div>
+    </section>
+
+    <section class="section">
+        <section class="pimg4">
+            <div class="ptext">
+                <span class="textbg"> QCM SUR LES KNACKIS </span>
+            </div>
+    </section>
+
+
+	<form name="quizz" onsubmit="verifier(); return false;">
+        <br>
+		<h3>Question 1</h3>
+		<p>En quelle annee a ete creee la Knacki ?</p>
+		<input type="radio" name="q1" value="a"> a) 1947<br>
+		<input type="radio" name="q1" value="b"> b) 2004<br>
+		<input type="radio" name="q1" value="c"> c) 1975<br>
+        <br>
+		<h3>Question 2</h3>
+		<p>Comment est ce qu'on cuit generalement les Knackis ?</p>
+
+        <select name="q2">
+            <option value="">--Choisir une option--</option>
+            <option value="a">a) Dans l'huile</option>
+            <option value="b">b) Dans l'eau</option>
+            <option value="c">c) Au four</option>
+        </select>
+
+        <br>
+
+		<h3>Question 3</h3>
+		<p>Quelle entreprise vend les Knackis?</p>
+        <input type="text" id="q3" name="q3" placeholder="Reponse...">
+        <br>
+        <br>
+		<input class=valider_ type="submit" value="">
+	</form>
+
+	<div id="resultats"></div>
+    <br>
+            
+    <section class="BDP">
+            <span class="textBDP"><p>NATHAN ET MATEO</p></span>
+    </section>
+
+</body>
+</html>

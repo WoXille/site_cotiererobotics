@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+    font-weight: 400;
+    height:100%;
+    margin: 0;
+    line-height: 1.8em;
+    color: grey;
+}
+.navbar{
+    margin-bottom: 3px;
+    background-color: black;
+    color: white;
+
+}
+ul{
+    list-style: none;
+    display:flex;
+    text-align: left;
+}
+.navbar ul li{
+    padding:8px;
+   
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+       
+}
+.navbar ul li a:hover{
+    font-weight: bold;
+    font-size: large;
+    transition: 0.1s ease-in;
+}
+
+.pimg1{
+    background-image: url(knacki1.png);
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+.pimg0{
+    background-image: url(knacki3.png);
+    min-height: 200px;
+}
+
+.pimg2{
+    background-image: url(knacki.png);
+    min-height: 200px;
+}
+
+.pimg4{
+    background-image: url(knacki2.png);
+    min-height: 200px;
+}
+
+
+.pimg0, .pimg1, .pimg2, .pimg4{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section{
+    text-align: center;
+    padding: 20px 80px;
+    text-transform: uppercase;
+}
+
+.valider_{
+    background: transparent;
+    background-image: url(VALIDER.png);
+    min-height: 101px;
+    width: 429px;
+    border: none;
+
+}
+
+.BDP{
+    text-align: right;
+    width: 100%;
+    padding: 20px 90px;
+    text-transform: uppercase;
+    background-color: dimgrey;
+}
+
+.textBDP{
+    color: white;
+}
