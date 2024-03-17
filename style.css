@@ -23,7 +23,6 @@ ul{
 .navbar ul li{
     padding-left: 20px;
     padding-top: 50px;
-   
 }
 .navbar ul li a{
     color:white;
@@ -39,27 +38,33 @@ ul{
 
 .pimg1{
     background-image: url(IMG_20240203_114234.jpg);
-    min-height: 500px;
+    min-height: 425px;
     background-attachment: fixed;
 }
 
 .pimg0{
-    background-image: url(knacki3.png);
+    background-image: url(IMG_20240203_130336.png);
     min-height: 200px;
 }
 
 .pimg2{
-    background-image: url(knacki.png);
+    background-image: url(WhatsApp\ Image\ 2024-02-04\ at\ 15.08.46.jpeg);
     min-height: 200px;
 }
 
 .pimg4{
-    background-image: url(knacki2.png);
+    background-image: url(IMG_20240203_130336.png);
+    min-height: 200px;
+}
+
+.pimg5{
+    background-image: url(IMG_20240203_130336.png);
     min-height: 200px;
 }
 
 
-.pimg0, .pimg1, .pimg2, .pimg4{
+
+.pimg0, .pimg1, .pimg2, .pimg4, .pimg5{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -74,7 +79,7 @@ ul{
     text-align: center;
     color: white;
     font-size: 27px;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 600;
@@ -85,11 +90,25 @@ ul{
     background-color: #1B368B;
     color: white;
     padding: 20px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section{
     text-align: center;
     padding: 20px 80px;
+    text-transform: uppercase;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section_sponsor{
+    text-align: center;
+    padding-top: 100px;
+
+    padding-bottom: 100px;
     text-transform: uppercase;
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 600;
@@ -118,20 +137,24 @@ ul{
 }
 
 
-
 #logo{
    padding-top: 20px;
    padding-left: 20px;
-   padding-right: 50px;
+   padding-right: 40px;
    background-color: white;
 }
 
 #nom{
     padding-top: 20px;
-   padding-left: 10px;
-   padding-right: 20px;
+   padding-left: 0px;
+   padding-right: 30px;
    background-color: white;
 }
+
+
+
+
+
 
 .alfa-slab {
     font-family: "Alfa Slab One", serif;
